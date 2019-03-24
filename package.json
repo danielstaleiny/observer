@@ -15,6 +15,11 @@
   "homepage": "http://github.com/azer/observer",
   "repository": "git://github.com/azer/observer.git",
   "scripts": {
-    "test": "node test/test.js"
+      "test": "node test/test.js",
+    "dev": "nodejs-dashboard nodemon ."
+  },
+  "dependencies": {
+    "nodejs-dashboard": "^0.4.3",
+    "uuid": "^3.3.2"
   }
 }
